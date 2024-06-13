@@ -80,3 +80,9 @@ This project contains a simple Solidity smart contract for an ERC-20-like token 
            balances[_from] -= _amount;
        }
    }
+   
+# Authors
+  Aayushi Sinha
+
+# License
+This project is licensed under the MIT License.
