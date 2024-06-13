@@ -80,7 +80,42 @@ This project contains a simple Solidity smart contract for an ERC-20-like token 
            balances[_from] -= _amount;
        }
    }
+
    
+## Compile the Contract:
+
+Click on the "Solidity compiler" tab.
+Select the compiler version 0.8.18.
+Click "Compile MyToken.sol".
+
+## Deploy the Contract:
+
+Click on the "Deploy & run transactions" tab.
+Select the appropriate environment (e.g., remix vm).
+Ensure the contract is selected from the dropdown (should be MyToken).
+Enter the constructor parameters:
+_name: "MyToken"
+_abbrv: "MTK"
+_initialSupply: 1000
+Click the "Deploy" button.
+
+## Interacting with the Contract
+### View Token Details:
+Click on tokenName, tokenAbbrv, and totalSupply to see the token details.
+
+### Check Balances:
+Enter an address in the balances field and click the button to see the balance of that address.
+
+### Mint Tokens:
+Enter the address and amount in the mint function fields and click the button to mint new tokens.
+
+### Burn Tokens:
+Enter the address and amount in the burn function fields and click the button to burn tokens.
+
+## Notes
+Ensure that the total supply and balance logic is handled correctly.
+Use proper network configurations for MetaMask if deploying to a testnet or mainnet.
+
 # Authors
   Aayushi Sinha
 
